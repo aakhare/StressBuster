@@ -15,6 +15,9 @@
 		B1C588D32107DC5800AF5450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C588D12107DC5800AF5450 /* LaunchScreen.storyboard */; };
 		B1C588DE2107DC5900AF5450 /* Fitness_PageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C588DD2107DC5900AF5450 /* Fitness_PageTests.swift */; };
 		B1C588E92107DC5900AF5450 /* Fitness_PageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C588E82107DC5900AF5450 /* Fitness_PageUITests.swift */; };
+		B1C588F72108F99E00AF5450 /* dribble_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B1C588F62108F99D00AF5450 /* dribble_2.gif */; };
+		B1C588F92108FB1100AF5450 /* gifFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C588F82108FB1100AF5450 /* gifFunctions.swift */; };
+		B1C588FB210900F700AF5450 /* RoutinesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C588FA210900F700AF5450 /* RoutinesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B1C588E42107DC5900AF5450 /* Fitness PageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness PageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C588E82107DC5900AF5450 /* Fitness_PageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_PageUITests.swift; sourceTree = "<group>"; };
 		B1C588EA2107DC5A00AF5450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C588F62108F99D00AF5450 /* dribble_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = dribble_2.gif; path = ../../../dribble_2.gif; sourceTree = "<group>"; };
+		B1C588F82108FB1100AF5450 /* gifFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifFunctions.swift; sourceTree = "<group>"; };
+		B1C588FA210900F700AF5450 /* RoutinesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutinesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 		B1C588C42107DC4B00AF5450 /* Fitness Page */ = {
 			isa = PBXGroup;
 			children = (
+				B1C588F62108F99D00AF5450 /* dribble_2.gif */,
 				B1C588C52107DC4C00AF5450 /* AppDelegate.swift */,
 				B1C588C72107DC4C00AF5450 /* ViewController.swift */,
+				B1C588F82108FB1100AF5450 /* gifFunctions.swift */,
 				B1C588C92107DC4C00AF5450 /* Main.storyboard */,
+				B1C588FA210900F700AF5450 /* RoutinesCollectionViewCell.swift */,
 				B1C588CF2107DC5800AF5450 /* Assets.xcassets */,
 				B1C588D12107DC5800AF5450 /* LaunchScreen.storyboard */,
 				B1C588D42107DC5800AF5450 /* Info.plist */,
@@ -234,6 +243,7 @@
 			files = (
 				B1C588D32107DC5800AF5450 /* LaunchScreen.storyboard in Resources */,
 				B1C588D02107DC5800AF5450 /* Assets.xcassets in Resources */,
+				B1C588F72108F99E00AF5450 /* dribble_2.gif in Resources */,
 				B1C588CB2107DC4C00AF5450 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C588F92108FB1100AF5450 /* gifFunctions.swift in Sources */,
 				B1C588CE2107DC4C00AF5450 /* Fitness_Page.xcdatamodeld in Sources */,
+				B1C588FB210900F700AF5450 /* RoutinesCollectionViewCell.swift in Sources */,
 				B1C588C82107DC4C00AF5450 /* ViewController.swift in Sources */,
 				B1C588C62107DC4C00AF5450 /* AppDelegate.swift in Sources */,
 			);
