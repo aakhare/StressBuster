@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Fitness View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fitness_Page" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FitnessViewController" customModule="Fitness_Page" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,10 +71,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScB-e6-Tyq">
-                                <rect key="frame" x="236" y="186" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sue-UR-lgY">
+                                <rect key="frame" x="43" y="194" width="126" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Guided Meditation"/>
+                                <connections>
+                                    <segue destination="TwF-MT-Z51" kind="show" id="yr3-2D-Sia"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScB-e6-Tyq">
+                                <rect key="frame" x="210" y="194" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Entertainment"/>
                                 <connections>
                                     <segue destination="GUd-wD-ZDh" kind="show" id="gKF-dW-6Kc"/>
                                 </connections>
@@ -91,10 +99,69 @@
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
         </scene>
-        <!--View Controller1-->
+        <!--Guided Meditation View Controller-->
+        <scene sceneID="8oA-Id-zOU">
+            <objects>
+                <viewController id="TwF-MT-Z51" customClass="GuidedMeditationViewController" customModule="timerTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Vm-Uf-CRO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGQ-M4-8xv">
+                                <rect key="frame" x="124" y="254" width="127" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRn-Zu-xkT">
+                                <rect key="frame" x="44" y="391" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="5 Minutes"/>
+                                <connections>
+                                    <action selector="fiveMinutesButton:" destination="TwF-MT-Z51" eventType="touchUpInside" id="E46-uN-WYD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xjt-27-WvP">
+                                <rect key="frame" x="150" y="391" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="10 Minutes"/>
+                                <connections>
+                                    <action selector="tenMinutesButton:" destination="TwF-MT-Z51" eventType="touchUpInside" id="2I1-VA-Wzg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NT7-9r-8bS">
+                                <rect key="frame" x="266" y="391" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="15 Minutes"/>
+                                <connections>
+                                    <action selector="fifteenMinutesButton:" destination="TwF-MT-Z51" eventType="touchUpInside" id="O5N-RJ-EVi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLH-se-DEQ">
+                                <rect key="frame" x="150" y="443" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pause/Play"/>
+                                <connections>
+                                    <action selector="pausePlay:" destination="TwF-MT-Z51" eventType="touchUpInside" id="uYR-hy-Xvw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ZND-HI-OkH"/>
+                    </view>
+                    <connections>
+                        <outlet property="timerLabel" destination="aGQ-M4-8xv" id="jwb-vQ-P8x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EPM-Dk-U8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79" y="878"/>
+        </scene>
+        <!--Romance View Controller-->
         <scene sceneID="gdk-yu-kej">
             <objects>
-                <viewController id="GUd-wD-ZDh" customClass="ViewController1" customModule="Fitness_Page" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GUd-wD-ZDh" customClass="RomanceViewController" customModule="Fitness_Page" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hlB-8A-DKM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -125,7 +192,7 @@
                                     <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieCollectionViewCell" id="6NJ-pW-sC7" customClass="MovieCollectionViewCell" customModule="entertainmentPage" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieCollectionViewCell" id="6NJ-pW-sC7" customClass="RomanceCollectionViewCell" customModule="entertainmentPage" customModuleProvider="target">
                                         <rect key="frame" x="10" y="7" width="280" height="409"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -139,7 +206,7 @@
                                             </subviews>
                                         </view>
                                         <connections>
-                                            <outlet property="movieImage" destination="MIl-KP-AbP" id="GFt-d4-zmH"/>
+                                            <outlet property="romanceIcon" destination="MIl-KP-AbP" id="GFt-d4-zmH"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -407,6 +474,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="mLX-OC-Jt2"/>
         <segue reference="Rae-lo-YiK"/>
-        <segue reference="02n-WS-0JW"/>
+        <segue reference="gKF-dW-6Kc"/>
     </inferredMetricsTieBreakers>
 </document>
