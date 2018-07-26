@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3FB5E9CA2109156D001B42D3 /* dribble_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5E9C92109156D001B42D3 /* dribble_2.gif */; };
-		3FB5E9D021091616001B42D3 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9CB21091615001B42D3 /* MovieCollectionViewCell.swift */; };
+		3FB5E9D021091616001B42D3 /* RomanceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9CB21091615001B42D3 /* RomanceCollectionViewCell.swift */; };
 		3FB5E9D121091616001B42D3 /* DramaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9CC21091615001B42D3 /* DramaCollectionViewCell.swift */; };
 		3FB5E9D221091616001B42D3 /* DramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9CD21091616001B42D3 /* DramaViewController.swift */; };
 		3FB5E9D321091616001B42D3 /* ComedyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9CE21091616001B42D3 /* ComedyViewController.swift */; };
 		3FB5E9D421091616001B42D3 /* ComedyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9CF21091616001B42D3 /* ComedyCollectionViewCell.swift */; };
-		3FB5E9D621091679001B42D3 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9D521091679001B42D3 /* ViewController1.swift */; };
+		3FB5E9D621091679001B42D3 /* RomanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5E9D521091679001B42D3 /* RomanceViewController.swift */; };
+		3FB5EA00210A425F001B42D3 /* 10min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5E9FD210A425E001B42D3 /* 10min.mp3 */; };
+		3FB5EA01210A425F001B42D3 /* 5min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5E9FE210A425E001B42D3 /* 5min.mp3 */; };
+		3FB5EA02210A425F001B42D3 /* 15min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5E9FF210A425F001B42D3 /* 15min.mp3 */; };
+		3FB5EA07210A4450001B42D3 /* GuidedMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5EA06210A4450001B42D3 /* GuidedMeditationViewController.swift */; };
 		B1C588C62107DC4C00AF5450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C588C52107DC4C00AF5450 /* AppDelegate.swift */; };
-		B1C588C82107DC4C00AF5450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C588C72107DC4C00AF5450 /* ViewController.swift */; };
+		B1C588C82107DC4C00AF5450 /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C588C72107DC4C00AF5450 /* FitnessViewController.swift */; };
 		B1C588CB2107DC4C00AF5450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C588C92107DC4C00AF5450 /* Main.storyboard */; };
 		B1C588CE2107DC4C00AF5450 /* Fitness_Page.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1C588CC2107DC4C00AF5450 /* Fitness_Page.xcdatamodeld */; };
 		B1C588D02107DC5800AF5450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C588CF2107DC5800AF5450 /* Assets.xcassets */; };
@@ -45,15 +49,19 @@
 
 /* Begin PBXFileReference section */
 		3FB5E9C92109156D001B42D3 /* dribble_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dribble_2.gif; sourceTree = "<group>"; };
-		3FB5E9CB21091615001B42D3 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FB5E9CB21091615001B42D3 /* RomanceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanceCollectionViewCell.swift; sourceTree = "<group>"; };
 		3FB5E9CC21091615001B42D3 /* DramaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DramaCollectionViewCell.swift; sourceTree = "<group>"; };
 		3FB5E9CD21091616001B42D3 /* DramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DramaViewController.swift; sourceTree = "<group>"; };
 		3FB5E9CE21091616001B42D3 /* ComedyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComedyViewController.swift; sourceTree = "<group>"; };
 		3FB5E9CF21091616001B42D3 /* ComedyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComedyCollectionViewCell.swift; sourceTree = "<group>"; };
-		3FB5E9D521091679001B42D3 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		3FB5E9D521091679001B42D3 /* RomanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanceViewController.swift; sourceTree = "<group>"; };
+		3FB5E9FD210A425E001B42D3 /* 10min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10min.mp3; sourceTree = "<group>"; };
+		3FB5E9FE210A425E001B42D3 /* 5min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5min.mp3; sourceTree = "<group>"; };
+		3FB5E9FF210A425F001B42D3 /* 15min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 15min.mp3; sourceTree = "<group>"; };
+		3FB5EA06210A4450001B42D3 /* GuidedMeditationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidedMeditationViewController.swift; sourceTree = "<group>"; };
 		B1C588C22107DC4B00AF5450 /* Fitness Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C588C52107DC4C00AF5450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1C588C72107DC4C00AF5450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1C588C72107DC4C00AF5450 /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
 		B1C588CA2107DC4C00AF5450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1C588CD2107DC4C00AF5450 /* Fitness_Page.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitness_Page.xcdatamodel; sourceTree = "<group>"; };
 		B1C588CF2107DC5800AF5450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +102,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FB5E9FC210A4241001B42D3 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5E9FE210A425E001B42D3 /* 5min.mp3 */,
+				3FB5E9FD210A425E001B42D3 /* 10min.mp3 */,
+				3FB5E9FF210A425F001B42D3 /* 15min.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		3FB5EA03210A43D2001B42D3 /* Entertainment */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5E9CF21091616001B42D3 /* ComedyCollectionViewCell.swift */,
+				3FB5E9CE21091616001B42D3 /* ComedyViewController.swift */,
+				3FB5E9D521091679001B42D3 /* RomanceViewController.swift */,
+				3FB5E9CB21091615001B42D3 /* RomanceCollectionViewCell.swift */,
+				3FB5E9CC21091615001B42D3 /* DramaCollectionViewCell.swift */,
+				3FB5E9CD21091616001B42D3 /* DramaViewController.swift */,
+			);
+			path = Entertainment;
+			sourceTree = "<group>";
+		};
+		3FB5EA05210A4430001B42D3 /* Guided Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5EA06210A4450001B42D3 /* GuidedMeditationViewController.swift */,
+				3FB5E9FC210A4241001B42D3 /* Music */,
+			);
+			path = "Guided Meditation";
+			sourceTree = "<group>";
+		};
 		B1C588B92107DC4B00AF5450 = {
 			isa = PBXGroup;
 			children = (
@@ -117,21 +157,17 @@
 		B1C588C42107DC4B00AF5450 /* Fitness Page */ = {
 			isa = PBXGroup;
 			children = (
+				B1C588C92107DC4C00AF5450 /* Main.storyboard */,
 				B1C588C52107DC4C00AF5450 /* AppDelegate.swift */,
-				B1C588C72107DC4C00AF5450 /* ViewController.swift */,
+				B1C588C72107DC4C00AF5450 /* FitnessViewController.swift */,
+				B1C588FA210900F700AF5450 /* RoutinesCollectionViewCell.swift */,
 				3FB5E9C92109156D001B42D3 /* dribble_2.gif */,
 				B1C588F82108FB1100AF5450 /* gifFunctions.swift */,
-				B1C588C92107DC4C00AF5450 /* Main.storyboard */,
-				3FB5E9CF21091616001B42D3 /* ComedyCollectionViewCell.swift */,
-				3FB5E9D521091679001B42D3 /* ViewController1.swift */,
-				3FB5E9CE21091616001B42D3 /* ComedyViewController.swift */,
-				3FB5E9CC21091615001B42D3 /* DramaCollectionViewCell.swift */,
-				3FB5E9CD21091616001B42D3 /* DramaViewController.swift */,
-				3FB5E9CB21091615001B42D3 /* MovieCollectionViewCell.swift */,
-				B1C588FA210900F700AF5450 /* RoutinesCollectionViewCell.swift */,
 				B1C588CF2107DC5800AF5450 /* Assets.xcassets */,
 				B1C588D12107DC5800AF5450 /* LaunchScreen.storyboard */,
 				B1C588D42107DC5800AF5450 /* Info.plist */,
+				3FB5EA05210A4430001B42D3 /* Guided Meditation */,
+				3FB5EA03210A43D2001B42D3 /* Entertainment */,
 				B1C588CC2107DC4C00AF5450 /* Fitness_Page.xcdatamodeld */,
 			);
 			path = "Fitness Page";
@@ -261,6 +297,9 @@
 			files = (
 				B1C588D32107DC5800AF5450 /* LaunchScreen.storyboard in Resources */,
 				3FB5E9CA2109156D001B42D3 /* dribble_2.gif in Resources */,
+				3FB5EA00210A425F001B42D3 /* 10min.mp3 in Resources */,
+				3FB5EA01210A425F001B42D3 /* 5min.mp3 in Resources */,
+				3FB5EA02210A425F001B42D3 /* 15min.mp3 in Resources */,
 				B1C588D02107DC5800AF5450 /* Assets.xcassets in Resources */,
 				B1C588CB2107DC4C00AF5450 /* Main.storyboard in Resources */,
 			);
@@ -289,14 +328,15 @@
 			files = (
 				3FB5E9D221091616001B42D3 /* DramaViewController.swift in Sources */,
 				B1C588F92108FB1100AF5450 /* gifFunctions.swift in Sources */,
-				3FB5E9D621091679001B42D3 /* ViewController1.swift in Sources */,
+				3FB5EA07210A4450001B42D3 /* GuidedMeditationViewController.swift in Sources */,
+				3FB5E9D621091679001B42D3 /* RomanceViewController.swift in Sources */,
 				3FB5E9D321091616001B42D3 /* ComedyViewController.swift in Sources */,
 				3FB5E9D121091616001B42D3 /* DramaCollectionViewCell.swift in Sources */,
 				B1C588CE2107DC4C00AF5450 /* Fitness_Page.xcdatamodeld in Sources */,
 				3FB5E9D421091616001B42D3 /* ComedyCollectionViewCell.swift in Sources */,
 				B1C588FB210900F700AF5450 /* RoutinesCollectionViewCell.swift in Sources */,
-				3FB5E9D021091616001B42D3 /* MovieCollectionViewCell.swift in Sources */,
-				B1C588C82107DC4C00AF5450 /* ViewController.swift in Sources */,
+				3FB5E9D021091616001B42D3 /* RomanceCollectionViewCell.swift in Sources */,
+				B1C588C82107DC4C00AF5450 /* FitnessViewController.swift in Sources */,
 				B1C588C62107DC4C00AF5450 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
